@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #F8F8F8;
+}
+
 :root {
     --font-family: 'Rubik', sans-serif;
     --size: 17px;
@@ -12,6 +16,7 @@
     --font-size_nubmer: 26px;
     --font-size_text: 20px;
 }
+
 .square__button:hover {
     background-color: white;
     color: red;
@@ -72,6 +77,7 @@
     font-weight: var(--weight);
     margin-right: 25px;
     transition: ease-in-out 0.5s;
+    background-color: #F6F6F6;
 } 
 
 .unbordered__button:hover {
@@ -695,9 +701,46 @@
     flex-direction: column;
 }
 
-.footer__info__link {
-    float: left;
+.footer__info__link__container {
+    transition: ease-in-out 0.5s;
+    width: 33px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
 }
+
+.footer__info__links__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    background-color: #F8F8F8;
+}
+
+.footer__info__link {
+    transition: ease-in-out 0.3s;
+    color: red;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer__info__link:hover {
+    transform: scale(1.2);
+}
+
+.footer__info__link__container:hover {
+    filter: drop-shadow(0px 4px 4px rgb(71, 66, 66, 0.25));
+}
+
+.footer__info__link__container:hover .footer__info__link {
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+}
+
+
 
 .footer__navigation__menu a {
     transition: color ease-in-out 0.5s;
