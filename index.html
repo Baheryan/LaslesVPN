@@ -14,12 +14,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/b703a0679a.js" crossorigin="anonymous"></script>
     <title>Lasles VPN</title>
 </head>
 <body>
     <header class="hdr__container">
             <div class="hdr__nav">
-                <img src="static/headerLogo.jpg" alt="spark" class="hdr__logo"> 
+                <img src="static/headerLogo.png" alt="spark" class="hdr__logo"> 
                 
                 <ul class="hdr__menu">
                     <li><a href="#">About</li></a>
@@ -257,10 +258,20 @@
         <div class="footer__info__container">
             <img class="footer__logo" src="static/footerLogo.png" alt="spark">
             <p class="footer__info__paragraph"><b>LaslesVPN</b> is a private virtual network that has unique features and has high security.</p>
-            <div class="footer__info__links">
-                <a href="#" class="footer__info__link"><img src="static/facebook.svg" alt="facebook"></a>
-                <a href="#" class="footer__info__link"><img src="static/twitter.svg" alt="twitter"></a>
-                <a href="#" class="footer__info__link"><img src="static/instagram.svg" alt="instagram"></a>
+            <div class="footer__info__links__wrapper">
+
+                <div class="footer__info__link__container">
+                <a href="#" class="footer__info__link"> <i class="fa-brands fa-facebook-f"></i> </a>
+                </div>
+
+                <div class="footer__info__link__container">
+                <a href="#" class="footer__info__link"> <i class="fa-brands fa-twitter"></i> </a>
+                </div>
+
+                <div class="footer__info__link__container">
+                <a href="#" class="footer__info__link"> <i class="fa-brands fa-instagram"></i> </a>
+                </div>
+
             </div>
             <span class="footer__info__text">@2020Lasles<b>VPN</b></span>
         </div>
@@ -310,41 +321,3 @@
 
 </body>
 </html>
-
-<!-- Notes 
-    HTML part
-    1.CamelCase (vpnLogo)
-    2. Переназвать всі файли  з маленької букви
-    3. Файли які відносяться до медія повинні лежати в окермій папці
-    4. Всі файли no-code лежать в окремій папці static (підпапка для медіафайли)
-    5.Знать BEM(правила найменування класів)
-    6.Переписать назви класів на більш інформативні (button1 button2)
-    7.Читать про декларацію alt атрибуту +(виправить свій alt)
-
-    Css part
-    1.Додати normalize файл
-    2.У всих css правилах повинні бути 1 одна табуляці після : +(пофіксить свій код)
-    3.У всих css правила після селектора перед дужкою повинна бути 1 табуляція +(пофіксить свій код)
-    4.Всі css правила пишуться в алфавітному порядку+ (пофіксить код)
-    5.Додати padding до всих клікабельних елементів на сторінці
-    6. Вправити transition на button2. 
---> 
-<!--  part 2
-    1.На всі елементи пункту меню hover червоного кольору(+ додати transition 0.3s)
-    2.Кнопка без бордера hover opasity на 0.7(0.8)
-    3.Кнопка з бордером background transition 0.3s
-    4. Переписать alt на img 
-    5. Винести картинки в окрему папку static img
-    6.Скачать нормалайз файл, винести css файли в окрему папку+ розказать про нормалайз
--->
-
-<!-- banner правки
-    1.Додати інверсію до кнопки +
-    2.При ctrl+ стабілізувать картинку(не повинна входить в текст) !z-index
-    3.Переназвать клас h__bold. +
-    4.Зробить рамку для тексу(шоб не виходив за фотографію) !зменшити ширину контейнеру
-    
-    section__info правки
-
-
--->
