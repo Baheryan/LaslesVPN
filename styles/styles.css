@@ -38,7 +38,7 @@ body {
     align-items: center;
     display: flex;
     margin-top: 38px;
-    }
+}
 
 .hdr__menu {
     display: flex;
@@ -751,6 +751,7 @@ body {
     font-size: 16px;
     color: #4F5665;
     text-decoration: none;
+    width: max-content;
 }
 
 .footer__navigation__menu a:hover {
