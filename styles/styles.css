@@ -30,7 +30,7 @@ body {
     box-sizing: border-box;
 }
 
-.hdr__logo {
+.hdr__logo-container {
     margin-right: 168px;
 }
 
@@ -651,6 +651,10 @@ body {
     margin: 63px auto;
     display: flex;
     justify-content: space-between;
+}
+
+.footer__logo-container {
+    width: max-content;
 }
 
 .footer__info__container {
